@@ -13,7 +13,7 @@ steps:
     password: 
        from_secret: docker-pass
     repo: chinodesuuu/drone-volume-cache
-    tags: latest
+    tags: amd64
     
 ---
 kind: pipeline
@@ -31,7 +31,7 @@ steps:
     password: 
        from_secret: docker-pass
     repo: chinodesuuu/drone-volume-cache
-    tags: latest
+    tags: arm
     
 ---
 kind: pipeline
@@ -49,4 +49,4 @@ steps:
     password: 
        from_secret: docker-pass
     repo: chinodesuuu/drone-volume-cache
-    tags: latest
+    tags: arm64
