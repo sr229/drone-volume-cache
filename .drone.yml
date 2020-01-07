@@ -32,11 +32,12 @@ steps:
        from_secret: docker-pass
     repo: chinodesuuu/drone-volume-cache
     tags: latest
+---
 kind: pipeline
-name: build-amd64
+name: build-arm64
 
 platform:
-  arch: amd64
+  arch: arm64
 
 steps:
 - name: docker  
